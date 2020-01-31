@@ -1,24 +1,32 @@
-# README
+# Getting Started
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Checking Your Ruby Version
+Before cloning the app, ensure that you have the latest Ruby release. This app uses Ruby version `2.7.0`.
 
-Things you may want to cover:
+* If you have `rvm`, run `rvm list` to see all of the installed Ruby versions on your computer.
 
-* Ruby version
+* If you don't see `2.7.0.` in the list, run the command `rvm install 2.7.0`.
 
-* System dependencies
+* After a short while, the lastest version will be installed. Run `rvm list` to confirm it is there.
 
-* Configuration
+* You'll need to switch over to it by running `rvm use 2.7.0` or `rvm --default use 2.7.0` if you want to make it the default version.
 
-* Database creation
+### Cloning the Repo
+* In your terminal, run `git clone https://github.com/storrence88/tailwindcss.git` to download the repo.
 
-* Database initialization
+* `cd` into the `tailwindcss` directory.
 
-* How to run the test suite
+### Setting Up the App
+* Run `bundle` to install the gems. (This could take a few mins...)
 
-* Services (job queues, cache servers, search engines, etc.)
+* Next, run `yarn` because why not?
 
-* Deployment instructions
+* Next, run `rails db:setup`, which behind the scenes will run `rails db:create`, `rails db:schema:load`, and `rails db:seed` all in one command! [Check this out for more info on rake commands](https://jacopretorius.net/2014/02/all-rails-db-rake-tasks-and-what-they-do.html).
 
-* ...
+* If you are getting an `extensions are not built...yada, yada, yada` warning that won't let you run the above command, try running `gem pristine --all`. This happens sometimes because of the new version of Ruby we installed. All of the executable commands are still pointing to the old Ruby version so we need to redirect them. Once the gems are pristine, run `rails db:setup` once more.
+
+* You may or may not see a BUNCH or warnings, don't worry about them. Side effects of using the latest Ruby version 😅...
+
+* You're almost there!🙌 Now run `rails s` to start the rails server and open a new tab and go to _localhost:3000_
+
+* Boom.
