@@ -27,6 +27,6 @@ Before cloning the app, ensure that you have the latest Ruby release. This app u
 
 * You may or may not see a BUNCH or warnings, don't worry about them. Side effects of using the latest Ruby version 😅...
 
-* You're almost there!🙌 Now run `rails s` to start the rails server and open a new tab and go to _localhost:3000_
+* You're almost there! 🙌 Now run `rails s` to start the rails server and open a new tab and go to _localhost:3000_
 
 * Boom.
