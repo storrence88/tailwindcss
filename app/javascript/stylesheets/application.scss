@@ -3,13 +3,13 @@
 @import "tailwindcss/utilities";
 
 .btn {
-  @apply font-bold py-2 px-4 rounded;
+	@apply font-bold py-2 px-4 rounded;
 }
 
-.btn-blue {
-  @apply bg-blue-500 text-white;
+.btn-green {
+	@apply bg-green-500 text-white;
 }
 
-.btn-blue:hover {
-  @apply bg-blue-700;
+.btn-green:hover {
+	@apply bg-green-700;
 }
