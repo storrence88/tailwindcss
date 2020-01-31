@@ -30,3 +30,12 @@ Before cloning the app, ensure that you have the latest Ruby release. This app u
 * You're almost there! 🙌 Now run `rails s` to start the rails server and open a new tab and go to _localhost:3000_
 
 * Boom.
+
+### Resources
+* [TailwindCSS](https://tailwindcss.com/) - A low level utility based CSS framework 
+* [PurgeCSS](https://purgecss.com/) - Tool to remove unused CSS
+* [Installing TailwindCSS with Rails 6](https://www.youtube.com/watch?v=L2nyKwrEY8w) - Video tutorial for setting up Tailwind with Rails 6 and Webpack
+* [Setting up PurgeCSS with Rails 6 and Webpack](https://www.youtube.com/watch?v=TSQE_ANDVtQ) - Video tutorial for setting up PurgeCSS with Rails 6 and Webpack
+* [State of CSS 2019](https://2019.stateofcss.com/)
+* [Community Thoughts on TailwindCSS](https://dev.to/nickytonline/what-are-your-thoughts-on-tailwind-css-573m)
+* [5 Takeaways From Using Tailwind CSS In Real Projects](https://nick-basile.com/blog/post/5-takeaways-from-using-tailwind-css-in-real-projects)
